@@ -1,0 +1,13 @@
+plugin.plugin_configuration.payment_method_configuration.paytm_payment:
+  type: plugin.plugin_configuration.payment_method_configuration.payment_base
+  label: 'Paytm Settings'
+  mapping:
+    merchant_id:
+      label: 'Merchant Id'
+      type: string
+    merchant_key:
+      label: 'Merchant key'
+      type: string
+    merchant_website:
+      label: 'Merchant Website'
+      type: string

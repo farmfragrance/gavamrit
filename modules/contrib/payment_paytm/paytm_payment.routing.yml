@@ -1,0 +1,7 @@
+paytm_payment.status:
+  path: '/paytm/status'
+  defaults:
+    _form: '\Drupal\paytm_payment\Form\PaytmPaymentStatus'
+    _title: 'Payment Status'
+  requirements:
+    _permission: 'access content'

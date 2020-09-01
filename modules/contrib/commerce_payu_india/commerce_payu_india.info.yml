@@ -1,0 +1,15 @@
+name: 'Commerce PayU India Payment Gateway'
+description: 'Use Indian Version of PayU Payment Gateway in Drupal Commerce checkout.'
+# core: 8.x
+type: module
+dependencies:
+ - commerce
+ - commerce_payment
+ - commerce_order
+ - telephone
+
+# Information added by Drupal.org packaging script on 2018-12-20
+version: '8.x-1.0'
+core: '8.x'
+project: 'commerce_payu_india'
+datestamp: 1545297788
