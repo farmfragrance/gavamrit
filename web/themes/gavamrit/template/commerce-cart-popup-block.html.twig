@@ -1,0 +1,31 @@
+<div{{ attributes}} id="block-commerce-popup-cart-commerce-popup-cart">
+    <div class="cart-block--summary " >
+        <div class="commerce-cart-pop--summary__icon">
+             {% if count %}
+            <span class="commerce-cart-pop--summary__count">{{ count }}</span> 
+             {% endif %}</div>
+    </div>
+
+
+    <div class="commerce-cart-pop-block" id="commerce-cart-pop-block">
+        {% if content %}
+            <div class="commerce-cart-pop-block__inners">
+                <div class="commerce-cart-pop-block__itemss">
+                    {{ content }}
+                </div>
+                <div class="pop-up-footer">
+                    <div  class="commerce-cart-pop-view-cart-link" id="commerce-cart-pop-view-cart-link">
+                        {{ links }}
+
+                    </div>
+                </div>
+            </div>  
+        {% else %}    
+            <div class="cart-empty-page">
+                {{ 'Your shopping cart is empty.'|t }}
+            </div>
+        {% endif %}  
+    </div>    
+
+
+</div>
