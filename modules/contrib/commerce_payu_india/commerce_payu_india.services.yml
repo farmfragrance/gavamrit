@@ -1,3 +1,0 @@
-services:
-  commerce_payu_india.calculate_hash:
-    class: Drupal\commerce_payu_india\Services\CalculateHash

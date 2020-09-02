@@ -6,23 +6,8 @@
     "require": {
         "composer/installers": "^1.0.24",
         "wikimedia/composer-merge-plugin": "^1.4",
-        "cweagans/composer-patches": "^1.6.5",
         "drupal/admin_toolbar": "^2.3",
-        "drupal/bootstrap4": "^2.0",
-        "drupal/commerce": "^2.20",
-        "drupal/commerce_cart_flyout": "^1.8",
-        "drupal/commerce_cart_popup": "^1.0",
-        "drupal/commerce_payu_india": "^1.0",
-        "drupal/console": "^1.0.2",
-        "drupal/contact_emails": "^1.19",
-        "drupal/core": "^8.8.0",
-        "drupal/core-composer-scaffold": "^8.8.0",
-        "drupal/owlcarousel": "^1.0@alpha",
-        "drupal/payment_paytm": "^1.0@beta",
-        "drush/drush": "^9.7.1 | ^10.0.0",
-        "vlucas/phpdotenv": "^4.0",
-        "webflo/drupal-finder": "^1.0.0",
-        "zaporylie/composer-drupal-optimizations": "^1.0"
+        "drupal/bootstrap4": "^2.0"
     },
     "replace": {
         "drupal/core": "^8.7"
