@@ -1,0 +1,30 @@
+.mainHeader {
+   
+    background: url(http://farmfragrance.in/themes/gavamrit/images/hbg.jpg);
+    background-color: #eee !important;
+    
+    background-position: 97% 83%;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar-expand-md.navbar-light {
+    background-color: transparent !important;
+}
+#commerce-cart-pop-block{
+	top:76px;
+}
+.region.region-nav-additional {
+    position: relative;
+}
+#block-shoppingcartpopup {
+    /* padding-left: 20px; */
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+.navbar{
+	margin-bottom:0px !important;
+}

@@ -1,0 +1,20 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+      css/responsive.css: {}
+      css/layerslider.css: {}
+      css/font.css: {}
+  js:
+    js/layerslider.transitions.js: {}
+    js/layerslider.kreaturamedia.jquery.js: {} 
+custom:
+  remote: https://github.com/jquery/jquery
+  header: true
+  version: "2.2.4"
+  license:
+    name: MIT
+    url: https://github.com/jquery/jquery/blob/2.2.4/LICENSE.txt
+    gpl-compatible: true
+  js:
+    js/jquery-2.2.4.min.js: { minified: true, weight: -20 }      
