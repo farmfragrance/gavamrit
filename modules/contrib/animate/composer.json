@@ -1,0 +1,16 @@
+{
+    "name": "drupal/animate",
+    "description": "Provide entrance animation classes, And Viewport animation.",
+    "type": "drupal-module",
+    "require": {
+        "drupal/field_group": "^3.0"
+    },
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "UR",
+            "email": "eklavyarwt@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

@@ -1,0 +1,13 @@
+name: Animate
+type: module
+description: 'Provide entrance animation classes, And Viewport animation.'
+package: Other
+core_version_requirement: ^8.7.7 || ^9
+dependencies:
+  - field_group:field_group
+  - drupal:block
+
+# Information added by Drupal.org packaging script on 2020-04-16
+version: '8.x-1.2'
+project: 'animate'
+datestamp: 1587055239
