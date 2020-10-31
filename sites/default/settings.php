@@ -290,7 +290,11 @@ $databases = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
+<<<<<<< HEAD
 $settings['hash_salt'] = '';
+=======
+$settings['hash_salt'] = 'dmWI-KH54oDyn_UDk6lThFZZx7dxqpyBj5LY-vXMxY5zLNHabk9OKHx4dfGIdV_Ue-KQCfPVng';
+>>>>>>> 73e5f71771b1d009c56a5bede060ef1cec214c7b
 
 /**
  * Deployment identifier.
@@ -313,7 +317,11 @@ $settings['hash_salt'] = '';
  * After finishing the upgrade, be sure to open this file again and change the
  * TRUE back to a FALSE!
  */
+<<<<<<< HEAD
 $settings['update_free_access'] = FALSE;
+=======
+$settings['update_free_access'] = TRUE;
+>>>>>>> 73e5f71771b1d009c56a5bede060ef1cec214c7b
 
 /**
  * External access proxy settings:
@@ -796,3 +804,16 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $settings['config_sync_directory'] = 'config/sync';
+<<<<<<< HEAD
+=======
+$databases['default']['default'] = array (
+  'database' => 'myweb',
+  'username' => 'root',
+  'password' => '',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+>>>>>>> 73e5f71771b1d009c56a5bede060ef1cec214c7b
