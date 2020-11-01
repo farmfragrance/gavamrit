@@ -1,4 +1,0 @@
-services:
-  animate:
-    class: Drupal\animate\AnimateService
-    arguments: ['@config.factory', '@logger.factory']

@@ -1,7 +1,0 @@
-block.block.*.third_party.animate:
-  type: mapping
-  label: Block animation class
-  mapping:
-    data_animation:
-      type: string
-      label: Block animation class
